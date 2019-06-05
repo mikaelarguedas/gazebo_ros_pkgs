@@ -137,7 +137,6 @@
           <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
             <ros>
               <namespace>demo_cam</namespace>
-              <!-- TODO(louise) Remapping not working due to https://github.com/ros-perception/image_common/issues/93 -->
               <argument>image_raw:=image_demo</argument>
               <argument>camera_info:=camera_info_demo</argument>
             </ros>
